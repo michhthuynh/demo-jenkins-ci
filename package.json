@@ -4,11 +4,15 @@
   "description": "Demonstration REST API",
   "main": "src/app.js",
   "scripts": {
-    "test": "node src/app.js"
+    "test": "node src/app.js",
+    "dev": "nodemon src/app.js"
   },
   "author": "Huynh Hoang",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
